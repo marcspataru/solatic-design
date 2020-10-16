@@ -1,0 +1,124 @@
+.ip{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.fstanga{
+	float:left;
+	padding-left:50px;
+}
+.fdreapta{
+	float:right;
+	padding-right:50px;
+}
+.text-header{
+    font-size: 15px;
+}
+.text-header a{
+	color:green;
+}
+.text-header a:hover{
+	text-decoration:none;
+	color:DarkSlateGrey;
+}
+.headerue{
+	max-width:75%;
+	max-height:75%;
+}
+.col{
+	text-align:center;
+}
+#carouselHP{
+	display:inline-block;
+	self-align:center;
+}
+#carouselHP.carousel.slide {
+    width: 100%; 
+    max-width: 1200px; !important
+}
+.center{
+	text-align:center;
+	margin-right:-15px;
+	margin-left:-15px;
+}
+.bg{
+	background-image:url("bg-verde.jpg");
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+#text-intro{
+	padding-top:20px;
+}
+.card img{
+	width:100px;
+	height:100px;
+	display:block;
+	margin:auto;
+	padding:10px;
+}
+.card .card-header{
+	background-color:white;
+}
+ul{
+    list-style-type: none;
+	padding-left:0;
+}
+.cards-text li:before{
+    content: "•";
+    margin-right: 10px;
+    font-weight: bold;
+    color: green;
+}
+#text-post-cards{
+	padding-top:15px;
+}
+.form-control{
+	border:1px solid green;
+}
+.form-control:focus{
+	border:2px solid green;
+}
+form{
+	padding-bottom:10px;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: green;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6) !important;
+  outline: 0 none;
+}
+
+#noutati{
+	padding-top:10px;
+}
+#noutati-titlu{
+	font-size:70px;
+}
+
+.bg-form{
+	background-image:url("bg-verde.jpg");
+	margin-left:-20px;
+	margin-right:-20px;
+	margin-top:30px;
+}
+
+.form-check{
+	padding-bottom:10px;
+}
+.desprenoij{
+	margin:20px;
+}
